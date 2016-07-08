@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <!--<link rel="stylesheet" type="text/css" href="css/index.css">-->
+        <title>RHC - Residentes Huanuni</title>
+        <!--<link rel="stylesheet" type="text/css" href="lib/appframework/icons.css" />-->
+        <!--<link rel="stylesheet" type="text/css" href="lib/appframework/af.ui.css" />-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">-->
+        <link rel="stylesheet" href="css/rhc.css">
+        <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />
+
+
+        <!--<script type="text/javascript" charset="utf-8" src="lib/jquery.js"></script>-->
+        <script type="text/javascript" charset="utf-8" src="js/jquery.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/assets/index.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/jquery.mobile-1.4.5.min.js"></script>
+        <!--<script type="text/javascript" charset="utf-8" src="lib/fastclick.min.js"></script>-->
+        <!--<script type="text/javascript" charset="utf-8" src="lib/appframework/appframework.ui.min.js"></script>-->
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+        function fillClub(club){
+            var count = 0;
+            $.getJSON('data.json', function(data) {
+                var output = '';
+                var dataTheme = '';
+                $.each(data, function(key, value) {
+                    dataTheme = 'data-theme="b"';
+
+                    if(value.documento == 'SI') {
+                        dataTheme = 'data-theme="a"';
+                    }
+                    if(value.club == club) {
+
+                     output += '<li ' + dataTheme + '><h3>' +
+                     value.name + ' ' + value.last +  '</h3><hr/><strong class="ui-subtitle">CI: </strong><b>' +
+                     value.ci + '</b><br/><strong class="ui-subtitle">Kardex: </strong><b>' + value.documento + '<br/><strong class="ui-subtitle">Parentesco: </strong><b>' +
+                     value.parentesco + '</b>' + '<br/><strong class="ui-subtitle"> Fecha Nac.: </strong><b>' +
+                     value.fechanacimiento + '</b><br/>Notas: '+ value.notas +'</li>';
+                    count = count + 1;
+                    }
+                });
+                first = "<li data-role='list-divider'><a href='#' onclick=\"javascript:fillClub('" +
+                    club + "');\" data-role='button'>" + club + "</a><span class='ui-li-count'>" + count + "</span></li>";
+                var clubNew = club.replace(/\s+/g, '');
+
+                $('#'+ clubNew).html(output).listview("refresh");
+                $('#'+ clubNew + 'Count').html(count);
+
+            });
+        }
+        </script>
+    </head>
+
+    <body>
+    <div data-role="page" id="init">
+        <div data-role="header" align="center">RHC * Residentes Huanuni Cochabamba</div>
+        <div role="main" class="ui-content">
+            <a href="#futbol_senior" data-role="button" data-theme="a">Futbol Senior</a>
+            <a href="#futbol_libre" data-role="button" data-theme="a">Futbol Libre</a>
+            <a href="#futsala_senior" data-role="button" data-theme="a">Futsala Senior </a>
+            <a href="#futsala_libre" data-role="button" data-theme="a">Futsala Libre</a>
+        </div>
+        <div data-role="footer" align="center">RHC CopyRight &copy; 2016</div>
+    </div>
+
+    <!-- Start of second page -->
+    <div data-role="page" id="futbol_senior">
+
+        <div data-role="header">
+            <h1>Futbol Senior</h1><a href="#init" data-role="button" data-theme="a">Inicio</a>
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+            <div class="pages">
+                <!--Initial List of items-->
+                <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+                    <div data-role="collapsible">
+                        <h2><a href="#" onclick="javascript:fillClub('10 de Noviembre');" data-role="button" data-theme="a">10 de Noviembre<span class="ui-li-count" id="10deNoviembreCount">0</span></a></h2>
+                        <ul data-role="listview" data-theme="a" data-divider-theme="a" id="10deNoviembre" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                            <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('10 de Noviembre');" data-role="button">10 de Noviembre</a><span class="ui-li-count">0</span></li>-->
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2><a href="#" onclick="javascript:fillClub('Cataricagua');" data-role="button" data-theme="a">Cataricagua<span class="ui-li-count" id="CataricaguaCount">0</span></a></h2>
+                        <ul data-role="listview" data-theme="a" data-divider-theme="a" id="Cataricagua" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                            <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Cataricagua');" data-role="button">Cataricagua</a><span class="ui-li-count">0</span></li>-->
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2><a href="#" onclick="javascript:fillClub('Chimba');" data-role="button" data-theme="a">Chimba<span class="ui-li-count" id="ChimbaCount">0</span></a></h2>
+                        <ul data-role="listview" data-theme="b" data-divider-theme="b" id="Chimba" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                            <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Chimba');" data-role="button">Chimba</a><span class="ui-li-count">0</span></li>-->
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2><a href="#" onclick="javascript:fillClub('Club Huanuni');" data-role="button" data-theme="a">Club Huanuni<span class="ui-li-count" id="ClubHuanuniCount">0</span></a></h2>
+                        <ul data-role="listview" data-theme="b" data-divider-theme="b" id="ClubHuanuni" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                            <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Club Huanuni');" data-role="button">Club Huanuni</a><span class="ui-li-count">0</span></li>-->
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2><a href="#" onclick="javascript:fillClub('Independiente');" data-role="button" data-theme="a">Independiente<span class="ui-li-count" id="IndependienteCount">0</span></a></h2>
+                        <ul data-role="listview" data-theme="b" data-divider-theme="b" id="Independiente" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                            <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Independiente');" data-role="button">Independiente</a><span class="ui-li-count">0</span></li>-->
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2><a href="#" onclick="javascript:fillClub('Jalakery');" data-role="button" data-theme="a">Jalakery<span class="ui-li-count" id="JalakeryCount">0</span></a></h2>
+                        <ul data-role="listview" data-theme="b" data-divider-theme="b" id="Jalakery" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                            <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Jalakery');" data-role="button">Jalakery</a><span class="ui-li-count">0</span></li>-->
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2><a href="#" onclick="javascript:fillClub('Olimpic');" data-role="button" data-theme="a">Olimpic<span class="ui-li-count" id="OlimpicCount">0</span></a></h2>
+                        <ul data-role="listview" data-theme="b" data-divider-theme="b" id="Olimpic" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                            <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Olimpic');" data-role="button">Olimpic</a><span class="ui-li-count">0</span></li>-->
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2><a href="#" onclick="javascript:fillClub('Porvenir');" data-role="button" data-theme="a">Porvenir<span class="ui-li-count" id="PorvenirCount">0</span></a></h2>
+                        <ul data-role="listview" data-theme="b" data-divider-theme="b" id="Porvenir" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                            <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Porvenir');" data-role="button">Porvenir</a><span class="ui-li-count">0</span></li>-->
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2><a href="#" onclick="javascript:fillClub('Rosario Central');" data-role="button" data-theme="a">Rosario Central<span class="ui-li-count" id="RosarioCentralCount">0</span></a></h2>
+                        <ul data-role="listview" data-theme="b" data-divider-theme="b" id="RosarioCentral" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                            <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Rosario Central');" data-role="button">Rosario Central</a><span class="ui-li-count">0</span></li>-->
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2><a href="#" onclick="javascript:fillClub('Santa Rosa');" data-role="button" data-theme="a">Santa Rosa<span class="ui-li-count" id="SantaRosaCount">0</span></a></h2>
+                        <ul data-role="listview" data-theme="b" data-divider-theme="b" id="SantaRosa" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                            <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Santa Rosa');" data-role="button">Santa Rosa</a><span class="ui-li-count">0</span></li>-->
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2><a href="#" onclick="javascript:fillClub('Valle Bajo');" data-role="button" data-theme="a">Valle Bajo<span class="ui-li-count" id="ValleBajoCount">0</span></a></h2>
+                        <ul data-role="listview" data-theme="b" data-divider-theme="b" id="ValleBajo" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                            <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Valle Bajo');" data-role="button">Valle Bajo</a><span class="ui-li-count">0</span></li>-->
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2><a href="#" onclick="javascript:fillClub('Villa Bush Tigres');" data-role="button" data-theme="a">Villa Bush Tigres<span class="ui-li-count" id="VillaBushTigresCount">0</span></a></h2>
+                        <ul data-role="listview" data-theme="b" data-divider-theme="b" id="VillaBushTigres" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                            <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Villa Bush Tigres');" data-role="button">Villa Bush Tigres</a><span class="ui-li-count" id="porvenirCount">0</span></li>-->
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2><a href="#" onclick="javascript:fillClub('Villa Galindo');" data-role="button" data-theme="a">Villa Galindo<span class="ui-li-count" id="VillaGalindoCount">0</span></a></h2>
+                        <ul data-role="listview" data-theme="b" data-divider-theme="b" id="VillaGalindo" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                            <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Villa Galindo');" data-role="button">Villa Galindo</a><span class="ui-li-count" id="porvenirCount">0</span></li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /content -->
+
+        <div data-role="footer" align="center">RHC CopyRight &copy; 2016</div>
+        <!-- /footer -->
+    </div><!-- /page -->
+    </body>
+</html>

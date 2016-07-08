@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="js/jquery.min.js"></script>
+<title>RHC * Residentes Huanuneños</title>
+    <script type="text/javascript">
+        function fillClub(club){
+            var count = 0;
+            $.getJSON('data.json', function(data) {
+                var output = '';
+                var dataTheme = '';
+                $.each(data, function(key, value) {
+                    dataTheme = 'data-theme="b"';
+
+                    if(value.documento == 'SI') {
+                        dataTheme = 'data-theme="a"';
+                    }
+                    if(value.club == club) {
+
+                     output += '<li ' + dataTheme + '><h3>' +
+                     value.name + ' ' + value.last +  '</h3><p><strong>CI: ' +
+                     value.ci + '  Kardex: ' + value.documento + '</strong></p><p><strong>Parentesco: ' +
+                     value.parentesco + '</strong></p><p>Notas: ' +
+                     value.notas + '</p><p class="ui-li-aside"><strong> Fecha Nac.' +
+                     value.fechanacimiento + '</strong></p></li>';
+                    count = count + 1;
+                    }
+                });
+                first = "<li data-role='list-divider'><a href='#' onclick=\"javascript:fillClub('" +
+                    club + "');\" data-role='button'>" + club + "</a><span class='ui-li-count'>" + count + "</span></li>";
+                var clubNew = club.replace(/\s+/g, '');
+
+                $('#'+ clubNew).html(output).listview("refresh");
+                $('#'+ clubNew + 'Count').html(count);
+
+            });
+        }
+        </script>
+</head>
+<body>
+<div class="pages">
+
+    <!--Initial List of items-->
+    <div data-role="collapsible-set" data-theme="b" data-content-theme="b">
+        <div data-role="collapsible">
+            <h2><a href="#" onclick="javascript:fillClub('10 de Noviembre');" data-role="button" data-theme="a">10 de Noviembre<span class="ui-li-count" id="10deNoviembreCount">0</span></a></h2>
+            <ul data-role="listview" data-theme="a" data-divider-theme="a" id="10deNoviembre" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('10 de Noviembre');" data-role="button">10 de Noviembre</a><span class="ui-li-count">0</span></li>-->
+            </ul>
+        </div>
+        <div data-role="collapsible">
+            <h2><a href="#" onclick="javascript:fillClub('Cataricagua');" data-role="button" data-theme="a">Cataricagua<span class="ui-li-count" id="CataricaguaCount">0</span></a></h2>
+            <ul data-role="listview" data-theme="a" data-divider-theme="a" id="Cataricagua" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Cataricagua');" data-role="button">Cataricagua</a><span class="ui-li-count">0</span></li>-->
+            </ul>
+        </div>
+        <div data-role="collapsible">
+            <h2><a href="#" onclick="javascript:fillClub('Chimba');" data-role="button" data-theme="a">Chimba<span class="ui-li-count" id="ChimbaCount">0</span></a></h2>
+            <ul data-role="listview" data-theme="b" data-divider-theme="b" id="Chimba" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Chimba');" data-role="button">Chimba</a><span class="ui-li-count">0</span></li>-->
+            </ul>
+        </div>
+        <div data-role="collapsible">
+            <h2><a href="#" onclick="javascript:fillClub('Club Huanuni');" data-role="button" data-theme="a">Club Huanuni<span class="ui-li-count" id="ClubHuanuniCount">0</span></a></h2>
+            <ul data-role="listview" data-theme="b" data-divider-theme="b" id="Club Huanuni" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Club Huanuni');" data-role="button">Club Huanuni</a><span class="ui-li-count">0</span></li>-->
+            </ul>
+        </div>
+        <div data-role="collapsible">
+            <h2><a href="#" onclick="javascript:fillClub('Independiente');" data-role="button" data-theme="a">Independiente<span class="ui-li-count" id="IndependienteCount">0</span></a></h2>
+            <ul data-role="listview" data-theme="b" data-divider-theme="b" id="Independiente" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Independiente');" data-role="button">Independiente</a><span class="ui-li-count">0</span></li>-->
+            </ul>
+        </div>
+        <div data-role="collapsible">
+            <h2><a href="#" onclick="javascript:fillClub('Jalakery');" data-role="button" data-theme="a">Jalakery<span class="ui-li-count" id="JalakeryCount">0</span></a></h2>
+            <ul data-role="listview" data-theme="b" data-divider-theme="b" id="Jalakery" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Jalakery');" data-role="button">Jalakery</a><span class="ui-li-count">0</span></li>-->
+            </ul>
+        </div>
+        <div data-role="collapsible">
+            <h2><a href="#" onclick="javascript:fillClub('Olimpic');" data-role="button" data-theme="a">Olimpic<span class="ui-li-count" id="OlimpicCount">0</span></a></h2>
+            <ul data-role="listview" data-theme="b" data-divider-theme="b" id="Olimpic" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Olimpic');" data-role="button">Olimpic</a><span class="ui-li-count">0</span></li>-->
+            </ul>
+        </div>
+        <div data-role="collapsible">
+            <h2><a href="#" onclick="javascript:fillClub('Porvenir');" data-role="button" data-theme="a">Porvenir<span class="ui-li-count" id="PorvenirCount">0</span></a></h2>
+            <ul data-role="listview" data-theme="b" data-divider-theme="b" id="Porvenir" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Porvenir');" data-role="button">Porvenir</a><span class="ui-li-count">0</span></li>-->
+            </ul>
+        </div>
+        <div data-role="collapsible">
+            <h2><a href="#" onclick="javascript:fillClub('Rosario Central');" data-role="button" data-theme="a">Rosario Central<span class="ui-li-count" id="RosarioCentralCount">0</span></a></h2>
+            <ul data-role="listview" data-theme="b" data-divider-theme="b" id="RosarioCentral" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Rosario Central');" data-role="button">Rosario Central</a><span class="ui-li-count">0</span></li>-->
+            </ul>
+        </div>
+        <div data-role="collapsible">
+            <h2><a href="#" onclick="javascript:fillClub('Santa Rosa');" data-role="button" data-theme="a">Santa Rosa<span class="ui-li-count" id="SantaRosaCount">0</span></a></h2>
+            <ul data-role="listview" data-theme="b" data-divider-theme="b" id="SantaRosa" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Santa Rosa');" data-role="button">Santa Rosa</a><span class="ui-li-count">0</span></li>-->
+            </ul>
+        </div>
+        <div data-role="collapsible">
+            <h2><a href="#" onclick="javascript:fillClub('Valle Bajo');" data-role="button" data-theme="a">Valle Bajo<span class="ui-li-count" id="ValleBajoCount">0</span></a></h2>
+            <ul data-role="listview" data-theme="b" data-divider-theme="b" id="ValleBajo" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Valle Bajo');" data-role="button">Valle Bajo</a><span class="ui-li-count">0</span></li>-->
+            </ul>
+        </div>
+        <div data-role="collapsible">
+            <h2><a href="#" onclick="javascript:fillClub('Villa Bush Tigres');" data-role="button" data-theme="a">Villa Bush Tigres<span class="ui-li-count" id="VillaBushTigresCount">0</span></a></h2>
+            <ul data-role="listview" data-theme="b" data-divider-theme="b" id="VillaBushTigres" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Villa Bush Tigres');" data-role="button">Villa Bush Tigres</a><span class="ui-li-count" id="porvenirCount">0</span></li>-->
+            </ul>
+        </div>
+        <div data-role="collapsible">
+            <h2><a href="#" onclick="javascript:fillClub('Villa Galindo');" data-role="button" data-theme="a">Villa Galindo<span class="ui-li-count" id="VillaGalindoCount">0</span></a></h2>
+            <ul data-role="listview" data-theme="b" data-divider-theme="b" id="VillaGalindo" data-filter="true" data-filter-placeholder="Buscar" data-inset="true">
+                <!--<li data-role="list-divider"><a href="#" onclick="javascript:fillClub('Villa Galindo');" data-role="button">Villa Galindo</a><span class="ui-li-count" id="porvenirCount">0</span></li>-->
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<!--</div>-->
+
+</body>
+
+</html>
