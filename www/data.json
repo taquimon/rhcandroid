@@ -70,9 +70,9 @@
     "last" : "Paca Gutierres",
     "ci" : "2759271",
     "fechanacimiento" : "1964-07-04",
-    "parentesco" : "NINGUNO",
+    "parentesco" : "HUANUNEÑO",
     "kardex" : "",
-    "documento" : "NO",
+    "documento" : "SI",
     "notas" : "",
     "club" : "10 de Noviembre"
   },
@@ -92,31 +92,31 @@
     "last" : "Jimenez Ramallo",
     "ci" : "3081285",
     "fechanacimiento" : "1971-05-16",
-    "parentesco" : "NINGUNO",
+    "parentesco" : "HUANUNEÑO",
     "kardex" : "",
-    "documento" : "NO",
+    "documento" : "SI",
     "notas" : "",
     "club" : "10 de Noviembre"
   },
   {
-    "name" : "Zenon",
+    "name" : "Zenon Cesar",
     "last" : "Pacheco Quispe",
     "ci" : "4428552",
     "fechanacimiento" : "1972-02-14",
-    "parentesco" : "NINGUNO",
+    "parentesco" : "HUANUNEÑO",
     "kardex" : "",
-    "documento" : "NO",
+    "documento" : "SI",
     "notas" : "",
     "club" : "10 de Noviembre"
   },
   {
     "name" : "Jose Luis",
     "last" : "Balderrama Choque",
-    "ci" : "",
-    "fechanacimiento" : "0000-00-00",
-    "parentesco" : "NINGUNO",
+    "ci" : "3605399",
+    "fechanacimiento" : "1967-10-30",
+    "parentesco" : "HUANUNEÑO",
     "kardex" : "",
-    "documento" : "NO",
+    "documento" : "SI",
     "notas" : "",
     "club" : "10 de Noviembre"
   },
@@ -191,9 +191,9 @@
     "last" : "Jaldin Alcala",
     "ci" : "4380931",
     "fechanacimiento" : "1973-12-08",
-    "parentesco" : "NINGUNO",
+    "parentesco" : "HUANUNEÑO",
     "kardex" : "",
-    "documento" : "NO",
+    "documento" : "SI",
     "notas" : "",
     "club" : "10 de Noviembre"
   },
@@ -239,17 +239,6 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "Presenta fotocopia CI de la madre",
-    "club" : "Atletico Marza"
-  },
-  {
-    "name" : "Jhon",
-    "last" : "Marza Fuentes",
-    "ci" : "4383071",
-    "fechanacimiento" : "1972-03-26",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "",
     "club" : "Atletico Marza"
   },
   {
@@ -473,6 +462,83 @@
     "club" : "CAN"
   },
   {
+    "name" : "Javier",
+    "last" : "Sanchez Mercado",
+    "ci" : "3576225",
+    "fechanacimiento" : "1966-10-13",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Cataricagua"
+  },
+  {
+    "name" : "Andres Americo",
+    "last" : "Varias Escalera",
+    "ci" : "4428308",
+    "fechanacimiento" : "1968-12-27",
+    "parentesco" : "HIJO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "No presenta documentos padre/madre ni CI",
+    "club" : "Cataricagua"
+  },
+  {
+    "name" : "Juan Carlos",
+    "last" : "Revollo Cano",
+    "ci" : "7371445",
+    "fechanacimiento" : "1966-06-25",
+    "parentesco" : "OTRO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "Nacio en Cataricagua",
+    "club" : "Cataricagua"
+  },
+  {
+    "name" : "Victor Hugo",
+    "last" : "Mercado Cuevas",
+    "ci" : "4416605",
+    "fechanacimiento" : "1971-12-15",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Cataricagua"
+  },
+  {
+    "name" : "Gonzalo Vladimir",
+    "last" : "Revollo Cano",
+    "ci" : "3775381",
+    "fechanacimiento" : "1970-01-18",
+    "parentesco" : "OTRO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "Nacio en Cataricagua",
+    "club" : "Cataricagua"
+  },
+  {
+    "name" : "Edwin",
+    "last" : "Guzman Garcia",
+    "ci" : "4473880",
+    "fechanacimiento" : "1975-02-06",
+    "parentesco" : "ESPOSO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "Esposa - Mariel Ivonne Olivares Escalera, presenta documentos esposa",
+    "club" : "Cataricagua"
+  },
+  {
+    "name" : "Vladimir",
+    "last" : "Rocha Coca",
+    "ci" : "4386283",
+    "fechanacimiento" : "1974-07-18",
+    "parentesco" : "OTRO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "Radicado,presenta boleta de pago",
+    "club" : "Cataricagua"
+  },
+  {
     "name" : "Casiano Wilsor",
     "last" : "Burgoa Rivera",
     "ci" : "",
@@ -572,7 +638,7 @@
     "club" : "Cataricagua"
   },
   {
-    "name" : "Feliz",
+    "name" : "Felix",
     "last" : "Alave Cardozo",
     "ci" : "",
     "fechanacimiento" : "1968-10-06",
@@ -581,6 +647,50 @@
     "documento" : "SI",
     "notas" : "No presenta fotocopia de CI",
     "club" : "Cataricagua"
+  },
+  {
+    "name" : "Humberto",
+    "last" : "Quiroga Moscoso",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "NINGUNO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Cataricagua"
+  },
+  {
+    "name" : "Bismar",
+    "last" : "Moscoso Montes",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "NINGUNO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Cataricagua"
+  },
+  {
+    "name" : "Amilkar",
+    "last" : "Moscoso Montes",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "NINGUNO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Cataricagua"
+  },
+  {
+    "name" : "Ramiro",
+    "last" : "Ayma Mamani",
+    "ci" : "6524590",
+    "fechanacimiento" : "1970-03-11",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Chimba"
   },
   {
     "name" : "Fernando",
@@ -602,17 +712,6 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "Nacido Poopo - Venta y Media",
-    "club" : "Chimba"
-  },
-  {
-    "name" : "Julian",
-    "last" : "Poma Nina",
-    "ci" : "3722034",
-    "fechanacimiento" : "1967-09-01",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "",
     "club" : "Chimba"
   },
   {
@@ -646,17 +745,6 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "No presenta documentos de esposa",
-    "club" : "Chimba"
-  },
-  {
-    "name" : "Jesus",
-    "last" : "Cortes Albam",
-    "ci" : "2787105",
-    "fechanacimiento" : "0000-00-00",
-    "parentesco" : "NINGUNO",
-    "kardex" : "",
-    "documento" : "",
-    "notas" : "",
     "club" : "Chimba"
   },
   {
@@ -770,36 +858,25 @@
     "club" : "Chimba"
   },
   {
-    "name" : "Rodolfo",
-    "last" : "Lazo Merida",
-    "ci" : "3429079",
-    "fechanacimiento" : "1969-10-05",
+    "name" : "Carlos",
+    "last" : "Villca Cuellar",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
     "parentesco" : "HUANUNEÑO",
     "kardex" : "",
-    "documento" : "",
+    "documento" : "NO",
     "notas" : "",
     "club" : "Chimba"
   },
   {
-    "name" : "Gustavo",
-    "last" : "Arandia Mena",
-    "ci" : "4417352",
-    "fechanacimiento" : "1976-11-03",
-    "parentesco" : "ESPOSO",
+    "name" : "Jarol Herber",
+    "last" : "Daza Choque",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "HUANUNEÑO",
     "kardex" : "",
-    "documento" : "SI",
-    "notas" : "Esposa - Marlen Alvarez Mayda, No tiene CI",
-    "club" : "Chimba"
-  },
-  {
-    "name" : "Roberto",
-    "last" : "Claros Guzman",
-    "ci" : "4507946",
-    "fechanacimiento" : "1974-03-09",
-    "parentesco" : "ESPOSO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "Esposa - Felicidad Fortunata SantaCruz Veizag",
+    "documento" : "NO",
+    "notas" : "",
     "club" : "Chimba"
   },
   {
@@ -871,12 +948,12 @@
   {
     "name" : "Richard",
     "last" : "Said Ortiz",
-    "ci" : "",
-    "fechanacimiento" : "0000-00-00",
-    "parentesco" : "NINGUNO",
+    "ci" : "3807615",
+    "fechanacimiento" : "1972-11-27",
+    "parentesco" : "ESPOSO",
     "kardex" : "",
-    "documento" : "NO",
-    "notas" : "",
+    "documento" : "SI",
+    "notas" : "No presenta documentos esposa",
     "club" : "Club Huanuni"
   },
   {
@@ -1003,12 +1080,12 @@
   {
     "name" : "Pascual",
     "last" : "Bustamante",
-    "ci" : "",
-    "fechanacimiento" : "1980-09-06",
+    "ci" : "2728109",
+    "fechanacimiento" : "1954-05-14",
     "parentesco" : "HUANUNEÑO",
     "kardex" : "",
-    "documento" : "NO",
-    "notas" : "No presenta documentos",
+    "documento" : "SI",
+    "notas" : "",
     "club" : "Club Huanuni"
   },
   {
@@ -1518,17 +1595,6 @@
     "club" : "Deportivo Huanuni Futsal Libre"
   },
   {
-    "name" : "Marco",
-    "last" : "Salas Bravo",
-    "ci" : "",
-    "fechanacimiento" : "1970-07-09",
-    "parentesco" : "NINGUNO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "No presenta documentos",
-    "club" : "Deportivo Huanuni Futsal Libre"
-  },
-  {
     "name" : "Alejandro",
     "last" : "Ayma Sanchez",
     "ci" : "9397728",
@@ -1980,17 +2046,6 @@
     "club" : "Independiente"
   },
   {
-    "name" : "Mario",
-    "last" : "Caceres Conde",
-    "ci" : "5212307",
-    "fechanacimiento" : "1974-05-27",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "No presenta documentos padre/madre",
-    "club" : "Independiente"
-  },
-  {
     "name" : "Guntar",
     "last" : "Godoy Molina",
     "ci" : "",
@@ -2035,17 +2090,6 @@
     "club" : "Independiente"
   },
   {
-    "name" : "Andres",
-    "last" : "Varias Escalera",
-    "ci" : "4428308",
-    "fechanacimiento" : "1968-12-27",
-    "parentesco" : "HIJO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "No presenta documentos padre/madre ni CI",
-    "club" : "Independiente"
-  },
-  {
     "name" : "Marco Antony",
     "last" : "Fuentes Cruz",
     "ci" : "",
@@ -2054,17 +2098,6 @@
     "kardex" : "",
     "documento" : "",
     "notas" : "",
-    "club" : "Independiente"
-  },
-  {
-    "name" : "Jose Wasfor",
-    "last" : "Perez Tejerina",
-    "ci" : "",
-    "fechanacimiento" : "1979-01-06",
-    "parentesco" : "HIJO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "No Presenta documentos padre/madre ni CI",
     "club" : "Independiente"
   },
   {
@@ -2222,28 +2255,6 @@
     "club" : "Jalakery"
   },
   {
-    "name" : "Siriaco",
-    "last" : "Aguilar Isidro",
-    "ci" : "7272263",
-    "fechanacimiento" : "1972-06-18",
-    "parentesco" : "OTRO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "Radicado,presenta diploma de bachiller",
-    "club" : "Jalakery"
-  },
-  {
-    "name" : "Alfredo",
-    "last" : "Perez Tejerina",
-    "ci" : "5210555",
-    "fechanacimiento" : "1972-09-24",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "",
-    "club" : "Jalakery"
-  },
-  {
     "name" : "Victor Hernan",
     "last" : "Vasquez Morales",
     "ci" : "3085712",
@@ -2299,17 +2310,6 @@
     "club" : "Jalakery"
   },
   {
-    "name" : "Freddy",
-    "last" : "Jimenez Flores",
-    "ci" : "2750841",
-    "fechanacimiento" : "1960-06-27",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "",
-    "notas" : "",
-    "club" : "Jalakery"
-  },
-  {
     "name" : "Abraham",
     "last" : "Ventura Davalos",
     "ci" : "3535718",
@@ -2321,43 +2321,10 @@
     "club" : "Jalakery"
   },
   {
-    "name" : "Jose Luis",
-    "last" : "Zenteno Ayllon",
-    "ci" : "3731823",
-    "fechanacimiento" : "1966-01-22",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "",
-    "club" : "Jalakery"
-  },
-  {
     "name" : "Ronald",
     "last" : "Bustamante Quispe",
     "ci" : "3531913",
     "fechanacimiento" : "1978-01-08",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "",
-    "club" : "Jalakery"
-  },
-  {
-    "name" : "Zenon Pedro",
-    "last" : "Rodriguez Vasquez",
-    "ci" : "2759037",
-    "fechanacimiento" : "1964-03-13",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "",
-    "club" : "Jalakery"
-  },
-  {
-    "name" : "Javier Isaac",
-    "last" : "Rodriguez Vasquez",
-    "ci" : "4514766",
-    "fechanacimiento" : "1973-07-09",
     "parentesco" : "HUANUNEÑO",
     "kardex" : "",
     "documento" : "SI",
@@ -2783,6 +2750,303 @@
     "club" : "Nelson Guevara"
   },
   {
+    "name" : "Siriaco",
+    "last" : "Aguilar Isidro",
+    "ci" : "7272263",
+    "fechanacimiento" : "1972-06-18",
+    "parentesco" : "OTRO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "Radicado,presenta diploma de bachiller",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Freddy",
+    "last" : "Jimenez Flores",
+    "ci" : "2750841",
+    "fechanacimiento" : "1960-06-27",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Orlando",
+    "last" : "Nina Vasquez",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Hugo",
+    "last" : "Garcia Rojas",
+    "ci" : "671702",
+    "fechanacimiento" : "1959-05-21",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Jose",
+    "last" : "Ledezma Ancieta",
+    "ci" : "5248789",
+    "fechanacimiento" : "1975-03-19",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Jhonny",
+    "last" : "Ledezma Ancieta",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Justo",
+    "last" : "Choque Mamani",
+    "ci" : "3424911",
+    "fechanacimiento" : "1966-10-18",
+    "parentesco" : "ESPOSO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "Esposa - Ana Maria Castro Berrios, presenta c",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Froctoso",
+    "last" : "Arias Mamani",
+    "ci" : "3041387",
+    "fechanacimiento" : "1960-04-20",
+    "parentesco" : "OTRO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "Nacido en Poopo - Venta y Media",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Jhon",
+    "last" : "Macias Moya",
+    "ci" : "4175656",
+    "fechanacimiento" : "1978-06-22",
+    "parentesco" : "HIJO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "Su padre nacio en Poopo - Venta y Media",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Francisco",
+    "last" : "Mitma Choquecallata",
+    "ci" : "2735685",
+    "fechanacimiento" : "1958-12-17",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Marco Antonio",
+    "last" : "Quiroz Torrez",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "NINGUNO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "Rosario Central 2015",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Isaac",
+    "last" : "Manzel Choque",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "NINGUNO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Julian",
+    "last" : "Poma Nina",
+    "ci" : "3722034",
+    "fechanacimiento" : "1967-09-01",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "Ex Chimba",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Jesus",
+    "last" : "Cortes Albam",
+    "ci" : "2787105",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "NINGUNO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "ExChimba",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Rodolfo",
+    "last" : "Lazo Merida",
+    "ci" : "3429079",
+    "fechanacimiento" : "1969-10-05",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "Ex Chimba",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Gustavo",
+    "last" : "Arandia Mena",
+    "ci" : "4417352",
+    "fechanacimiento" : "1976-11-03",
+    "parentesco" : "ESPOSO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "Esposa - Marlen Alvarez Mayda, No tiene CI",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Roberto",
+    "last" : "Claros Guzman",
+    "ci" : "4507946",
+    "fechanacimiento" : "1974-03-09",
+    "parentesco" : "ESPOSO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "Esposa - Felicidad Fortunata SantaCruz Veizaga, ExChimba",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Gustavo",
+    "last" : "Ordoñez Ferrufino",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "NINGUNO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Steven",
+    "last" : "Santa Cruz Veizaga",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Vladimir",
+    "last" : "Flores Escalera",
+    "ci" : "5226604",
+    "fechanacimiento" : "1976-04-27",
+    "parentesco" : "HIJO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "Presenta fotocopia CI del padre",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Hernan",
+    "last" : "Salvatierra Balcazar",
+    "ci" : "3534465",
+    "fechanacimiento" : "1952-06-20",
+    "parentesco" : "OTRO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "Trabajador, no presenta documentos CI indica nacido en Potosi",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Juan Wilfredo",
+    "last" : "Marañon Gonzales",
+    "ci" : "9396016",
+    "fechanacimiento" : "1977-12-14",
+    "parentesco" : "ESPOSO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "concubino presenta fotocopia certificado de nacido vivo y sufragio de la esposa",
+    "club" : "NO CLUB"
+  },
+  {
+    "name" : "Jose Luis",
+    "last" : "Zenteno Ayllon",
+    "ci" : "3731823",
+    "fechanacimiento" : "1966-01-22",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Olimpic"
+  },
+  {
+    "name" : "Zenon Pedro",
+    "last" : "Rodriguez Vasquez",
+    "ci" : "2759037",
+    "fechanacimiento" : "1964-03-13",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Olimpic"
+  },
+  {
+    "name" : "Javier Isaac",
+    "last" : "Rodriguez Vasquez",
+    "ci" : "4514766",
+    "fechanacimiento" : "1973-07-09",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Olimpic"
+  },
+  {
+    "name" : "Alberto",
+    "last" : "Andrade Jimenez",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "NINGUNO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Olimpic"
+  },
+  {
+    "name" : "Ramiro",
+    "last" : "Fuentes Ojeda",
+    "ci" : "3108645",
+    "fechanacimiento" : "1969-03-06",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Olimpic"
+  },
+  {
     "name" : "Jaime",
     "last" : "Cordova Calderon",
     "ci" : "3723807",
@@ -2791,7 +3055,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "Radicado, presenta libreta de Escuela",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Wilfor",
@@ -2802,7 +3066,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Roger",
@@ -2813,7 +3077,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "Certificado de Nacimiento",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Juan",
@@ -2824,7 +3088,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "Esposa Rosario Elizabeth Jimenez Martinez de ",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Fernando",
@@ -2835,7 +3099,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Walter",
@@ -2846,18 +3110,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "",
-    "club" : "Olimpic San Pedro"
-  },
-  {
-    "name" : "Elmer",
-    "last" : "Pereira Zarate",
-    "ci" : "3111951",
-    "fechanacimiento" : "1970-01-07",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Rolando",
@@ -2868,18 +3121,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "",
-    "club" : "Olimpic San Pedro"
-  },
-  {
-    "name" : "Javier",
-    "last" : "Sanchez Mercado",
-    "ci" : "3576225",
-    "fechanacimiento" : "1966-10-13",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Ademar",
@@ -2890,7 +3132,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Gonzalo",
@@ -2901,7 +3143,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Isaias",
@@ -2912,7 +3154,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Freddy",
@@ -2923,7 +3165,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Segundino",
@@ -2934,7 +3176,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Gavino",
@@ -2945,7 +3187,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "Nacido en Oruro",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Gustavo",
@@ -2956,7 +3198,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Rolando",
@@ -2967,7 +3209,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "Nacido en Pulacayo Potosi",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Ledgar Elton",
@@ -2978,7 +3220,7 @@
     "kardex" : "",
     "documento" : "",
     "notas" : "",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Sergio German",
@@ -2989,7 +3231,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Miguel Angel",
@@ -3000,7 +3242,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Samuel",
@@ -3011,7 +3253,7 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "Mama Beatriz Cardenas de Montaño,presenta CI ",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
   },
   {
     "name" : "Oswaldo Turian",
@@ -3022,7 +3264,62 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "No presenta Documentos\n",
-    "club" : "Olimpic San Pedro"
+    "club" : "Olimpic"
+  },
+  {
+    "name" : "Marco",
+    "last" : "Salas Bravo",
+    "ci" : "",
+    "fechanacimiento" : "1970-07-09",
+    "parentesco" : "NINGUNO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "No presenta documentos",
+    "club" : "Olimpic"
+  },
+  {
+    "name" : "Jhonny Leandro",
+    "last" : "Claros Pancorbo",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Olimpic"
+  },
+  {
+    "name" : "Jose",
+    "last" : "Gamon Flores",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Olimpic"
+  },
+  {
+    "name" : "Gabino",
+    "last" : "Ramirez Callata",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Olimpic"
+  },
+  {
+    "name" : "Porfirio",
+    "last" : "Carrasco Mercado",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Olimpic"
   },
   {
     "name" : "Wilder",
@@ -3058,32 +3355,10 @@
     "club" : "Porvenir"
   },
   {
-    "name" : "Hugo",
-    "last" : "Garcia Rojas",
-    "ci" : "671702",
-    "fechanacimiento" : "1959-05-21",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "",
-    "club" : "Porvenir"
-  },
-  {
     "name" : "Jose",
     "last" : "Mamani Valdiviezo",
     "ci" : "9424095",
     "fechanacimiento" : "1963-06-08",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "",
-    "club" : "Porvenir"
-  },
-  {
-    "name" : "Jose",
-    "last" : "Ledezma Ancieta",
-    "ci" : "5248789",
-    "fechanacimiento" : "1975-03-19",
     "parentesco" : "HUANUNEÑO",
     "kardex" : "",
     "documento" : "SI",
@@ -3120,17 +3395,6 @@
     "parentesco" : "HUANUNEÑO",
     "kardex" : "",
     "documento" : "SI",
-    "notas" : "",
-    "club" : "Porvenir"
-  },
-  {
-    "name" : "Jhonny",
-    "last" : "Ledezma Ancieta",
-    "ci" : "",
-    "fechanacimiento" : "0000-00-00",
-    "parentesco" : "",
-    "kardex" : "",
-    "documento" : "",
     "notas" : "",
     "club" : "Porvenir"
   },
@@ -3245,14 +3509,69 @@
     "club" : "Porvenir"
   },
   {
-    "name" : "Ramiro",
-    "last" : "Ayma Mamani",
-    "ci" : "6524590",
-    "fechanacimiento" : "1970-03-11",
-    "parentesco" : "HUANUNEÑO",
+    "name" : "Edwin Ramiro",
+    "last" : "Capurata Taquichiri",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "NINGUNO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Porvenir"
+  },
+  {
+    "name" : "Roberto",
+    "last" : "Flores Poblety",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "NINGUNO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Porvenir"
+  },
+  {
+    "name" : "Gregorio",
+    "last" : "Pereyra Calizaya",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "NINGUNO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Porvenir"
+  },
+  {
+    "name" : "Isidro",
+    "last" : "Wañarraya Medrano",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "NINGUNO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Porvenir"
+  },
+  {
+    "name" : "Jorge Waldo",
+    "last" : "Arnez Garcia",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "NINGUNO",
     "kardex" : "",
     "documento" : "SI",
     "notas" : "",
+    "club" : "Porvenir"
+  },
+  {
+    "name" : "Marco Antonio",
+    "last" : "Crispin Soliz",
+    "ci" : "3117966",
+    "fechanacimiento" : "1973-05-23",
+    "parentesco" : "HIJO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "No presenta documentos padre/madre",
     "club" : "Rosario Central"
   },
   {
@@ -3311,28 +3630,6 @@
     "club" : "Rosario Central"
   },
   {
-    "name" : "Justo",
-    "last" : "Choque Mamani",
-    "ci" : "3424911",
-    "fechanacimiento" : "1966-10-18",
-    "parentesco" : "ESPOSO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "Esposa - Ana Maria Castro Berrios, presenta c",
-    "club" : "Rosario Central"
-  },
-  {
-    "name" : "Froctoso",
-    "last" : "Arias Mamani",
-    "ci" : "3041387",
-    "fechanacimiento" : "1960-04-20",
-    "parentesco" : "OTRO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "Nacido en Poopo - Venta y Media",
-    "club" : "Rosario Central"
-  },
-  {
     "name" : "Jose Antonio",
     "last" : "Huarachi Mamani",
     "ci" : "4472089",
@@ -3355,17 +3652,6 @@
     "club" : "Rosario Central"
   },
   {
-    "name" : "Jhon",
-    "last" : "Macias Moya",
-    "ci" : "4175656",
-    "fechanacimiento" : "1978-06-22",
-    "parentesco" : "HIJO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "Su padre nacio en Poopo - Venta y Media",
-    "club" : "Rosario Central"
-  },
-  {
     "name" : "Nils Fritz",
     "last" : "Santander Macias",
     "ci" : "4377285",
@@ -3385,28 +3671,6 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "Nacio en Poopo - Venta y media",
-    "club" : "Rosario Central"
-  },
-  {
-    "name" : "Francisco",
-    "last" : "Mitma Choquecallata",
-    "ci" : "2735685",
-    "fechanacimiento" : "1958-12-17",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "",
-    "notas" : "",
-    "club" : "Rosario Central"
-  },
-  {
-    "name" : "Marco Antonio",
-    "last" : "Quiroz Torrez",
-    "ci" : "",
-    "fechanacimiento" : "0000-00-00",
-    "parentesco" : "NINGUNO",
-    "kardex" : "",
-    "documento" : "",
-    "notas" : "",
     "club" : "Rosario Central"
   },
   {
@@ -3443,17 +3707,6 @@
     "club" : "Rosario Central"
   },
   {
-    "name" : "Isaac",
-    "last" : "Manzel Choque",
-    "ci" : "",
-    "fechanacimiento" : "0000-00-00",
-    "parentesco" : "NINGUNO",
-    "kardex" : "",
-    "documento" : "",
-    "notas" : "",
-    "club" : "Rosario Central"
-  },
-  {
     "name" : "Jhonny",
     "last" : "Villca Goytia",
     "ci" : "4079631",
@@ -3473,6 +3726,61 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "\n",
+    "club" : "Rosario Central"
+  },
+  {
+    "name" : "Juan Carlos",
+    "last" : "Choquecallata Macias",
+    "ci" : "5216748",
+    "fechanacimiento" : "1976-08-19",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Rosario Central"
+  },
+  {
+    "name" : "Jose Luis",
+    "last" : "Huarachi Mamani",
+    "ci" : "5155169",
+    "fechanacimiento" : "1981-02-12",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Rosario Central"
+  },
+  {
+    "name" : "Edgar",
+    "last" : "Crispin Flores",
+    "ci" : "9474356",
+    "fechanacimiento" : "1968-04-04",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Rosario Central"
+  },
+  {
+    "name" : "Juan Manuel",
+    "last" : "Mariscal Crispin",
+    "ci" : "4536226",
+    "fechanacimiento" : "1976-06-08",
+    "parentesco" : "HIJO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "No presenta documentos de la madre",
+    "club" : "Rosario Central"
+  },
+  {
+    "name" : "Abel",
+    "last" : "Mitma Arias",
+    "ci" : "5226604",
+    "fechanacimiento" : "1975-06-21",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
     "club" : "Rosario Central"
   },
   {
@@ -3543,24 +3851,13 @@
   },
   {
     "name" : "Mario",
-    "last" : "Caceres Chavez",
-    "ci" : "9357238",
-    "fechanacimiento" : "1953-05-27",
+    "last" : "Caceres Conde",
+    "ci" : "5212307",
+    "fechanacimiento" : "1974-05-27",
     "parentesco" : "HUANUNEÑO",
     "kardex" : "",
     "documento" : "SI",
-    "notas" : "",
-    "club" : "Santa Maria"
-  },
-  {
-    "name" : "Ramiro",
-    "last" : "Fuentes Ojeda",
-    "ci" : "3108645",
-    "fechanacimiento" : "1969-03-06",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "",
+    "notas" : "No presenta documentos padre/madre",
     "club" : "Santa Rosa"
   },
   {
@@ -3652,28 +3949,6 @@
     "club" : "Santa Rosa"
   },
   {
-    "name" : "Juan Carlos",
-    "last" : "Revollo Cano",
-    "ci" : "7371445",
-    "fechanacimiento" : "1966-06-25",
-    "parentesco" : "OTRO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "Nacio en Cataricagua",
-    "club" : "Santa Rosa"
-  },
-  {
-    "name" : "Victor Hugo",
-    "last" : "Mercado Cuevas",
-    "ci" : "4416605",
-    "fechanacimiento" : "1971-12-15",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "",
-    "club" : "Santa Rosa"
-  },
-  {
     "name" : "Heriberto Ramon",
     "last" : "Chavez Ledezma",
     "ci" : "3598328",
@@ -3682,39 +3957,6 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "",
-    "club" : "Santa Rosa"
-  },
-  {
-    "name" : "Gonzalo Vladimir",
-    "last" : "Revollo Cano",
-    "ci" : "3775381",
-    "fechanacimiento" : "1970-01-18",
-    "parentesco" : "OTRO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "Nacio en Cataricagua",
-    "club" : "Santa Rosa"
-  },
-  {
-    "name" : "Edwin",
-    "last" : "Guzman Garcia",
-    "ci" : "4473880",
-    "fechanacimiento" : "1975-02-06",
-    "parentesco" : "ESPOSO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "Esposa - Mariel Ivonne Olivares Escalera, pre",
-    "club" : "Santa Rosa"
-  },
-  {
-    "name" : "Vladimir",
-    "last" : "Rocha Coca",
-    "ci" : "4386283",
-    "fechanacimiento" : "1974-07-18",
-    "parentesco" : "OTRO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "Radicado,presenta boleta de pago",
     "club" : "Santa Rosa"
   },
   {
@@ -3729,17 +3971,6 @@
     "club" : "Santa Rosa"
   },
   {
-    "name" : "Gustavo",
-    "last" : "Ordoñez Ferrufino",
-    "ci" : "",
-    "fechanacimiento" : "0000-00-00",
-    "parentesco" : "NINGUNO",
-    "kardex" : "",
-    "documento" : "",
-    "notas" : "",
-    "club" : "Santa Rosa"
-  },
-  {
     "name" : "Silver Gonzalo",
     "last" : "Torrez Villarroel",
     "ci" : "3749595",
@@ -3751,13 +3982,13 @@
     "club" : "Santa Rosa"
   },
   {
-    "name" : "Steven",
-    "last" : "Santa Cruz Veizaga",
-    "ci" : "",
-    "fechanacimiento" : "0000-00-00",
+    "name" : "Quintin",
+    "last" : "Vidal Orellana",
+    "ci" : "3088635",
+    "fechanacimiento" : "1963-10-31",
     "parentesco" : "HUANUNEÑO",
     "kardex" : "",
-    "documento" : "",
+    "documento" : "SI",
     "notas" : "",
     "club" : "Santa Rosa"
   },
@@ -3773,69 +4004,14 @@
     "club" : "Santa Rosa"
   },
   {
-    "name" : "Juan Carlos",
-    "last" : "Choquecallata Macias",
-    "ci" : "5216748",
-    "fechanacimiento" : "1976-08-19",
+    "name" : "Mario",
+    "last" : "Caceres Chavez",
+    "ci" : "9357238",
+    "fechanacimiento" : "1953-05-27",
     "parentesco" : "HUANUNEÑO",
     "kardex" : "",
     "documento" : "SI",
     "notas" : "",
-    "club" : "Santa Rosa"
-  },
-  {
-    "name" : "Jose Luis",
-    "last" : "Huarachi Mamani",
-    "ci" : "5155169",
-    "fechanacimiento" : "1981-02-12",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "",
-    "club" : "Santa Rosa"
-  },
-  {
-    "name" : "Edgar",
-    "last" : "Crispin Flores",
-    "ci" : "9474356",
-    "fechanacimiento" : "1968-04-04",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "",
-    "club" : "Santa Rosa"
-  },
-  {
-    "name" : "Juan Manuel",
-    "last" : "Mariscal Crispin",
-    "ci" : "4536226",
-    "fechanacimiento" : "1976-06-08",
-    "parentesco" : "HIJO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "No presenta documentos de la madre",
-    "club" : "Santa Rosa"
-  },
-  {
-    "name" : "Abel",
-    "last" : "Mitma Arias",
-    "ci" : "5226604",
-    "fechanacimiento" : "1975-06-21",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "",
-    "club" : "Santa Rosa"
-  },
-  {
-    "name" : "Vladimir",
-    "last" : "Flores Escalera",
-    "ci" : "5226604",
-    "fechanacimiento" : "1976-04-27",
-    "parentesco" : "HIJO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "Presenta fotocopia CI del padre",
     "club" : "Santa Rosa"
   },
   {
@@ -3861,26 +4037,37 @@
     "club" : "Santa Rosa"
   },
   {
-    "name" : "Vladimir",
-    "last" : "Martinez Bustillos",
-    "ci" : "3102791",
-    "fechanacimiento" : "1968-03-29",
+    "name" : "Americo Richard",
+    "last" : "Torrez Quiroz",
+    "ci" : "2775243",
+    "fechanacimiento" : "1960-07-16",
     "parentesco" : "HUANUNEÑO",
     "kardex" : "",
     "documento" : "SI",
-    "notas" : "Revisado",
-    "club" : "Valle Bajo"
+    "notas" : "",
+    "club" : "Santa Rosa"
   },
   {
-    "name" : "Jose Luis ",
-    "last" : "Pereira Vasquez",
-    "ci" : "353091",
-    "fechanacimiento" : "1974-02-19",
+    "name" : "Antonio ",
+    "last" : "Aguilar Ugarte",
+    "ci" : "2765606",
+    "fechanacimiento" : "1959-06-13",
     "parentesco" : "HUANUNEÑO",
     "kardex" : "",
     "documento" : "SI",
-    "notas" : "Revisado",
-    "club" : "Valle Bajo"
+    "notas" : "",
+    "club" : "Santa Rosa"
+  },
+  {
+    "name" : "Carlos Nhery",
+    "last" : "Vargas Rodriguez",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "NINGUNO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Santa Rosa"
   },
   {
     "name" : "Felix",
@@ -3891,17 +4078,6 @@
     "kardex" : "",
     "documento" : "NO",
     "notas" : "",
-    "club" : "Valle Bajo"
-  },
-  {
-    "name" : "Jhonny",
-    "last" : "Cuellar Sejas",
-    "ci" : "39113221",
-    "fechanacimiento" : "1970-05-25",
-    "parentesco" : "ESPOSO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "Esposa - Elvira del Carpio,NO carnet esposa",
     "club" : "Valle Bajo"
   },
   {
@@ -3924,39 +4100,6 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "",
-    "club" : "Valle Bajo"
-  },
-  {
-    "name" : "Alberto",
-    "last" : "Andrade Jimenez",
-    "ci" : "",
-    "fechanacimiento" : "0000-00-00",
-    "parentesco" : "NINGUNO",
-    "kardex" : "",
-    "documento" : "",
-    "notas" : "",
-    "club" : "Valle Bajo"
-  },
-  {
-    "name" : "Antonio",
-    "last" : "Cossio Terrazas",
-    "ci" : "3805315",
-    "fechanacimiento" : "1973-07-13",
-    "parentesco" : "ESPOSO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "Esposa Silvia Amusquibar,No tiene carnet espo",
-    "club" : "Valle Bajo"
-  },
-  {
-    "name" : "Henrry",
-    "last" : "Zurita Enrriquez",
-    "ci" : "4466498",
-    "fechanacimiento" : "1979-05-08",
-    "parentesco" : "NINGUNO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "Nacio en Cochabamba, Carnet no indica lugar d",
     "club" : "Valle Bajo"
   },
   {
@@ -4000,7 +4143,7 @@
     "parentesco" : "HUANUNEÑO",
     "kardex" : "",
     "documento" : "SI",
-    "notas" : "Revisado",
+    "notas" : "",
     "club" : "Valle Bajo"
   },
   {
@@ -4034,39 +4177,6 @@
     "kardex" : "",
     "documento" : "SI",
     "notas" : "Trabajador, Nacido en La Paz, no presenta doc",
-    "club" : "Valle Bajo"
-  },
-  {
-    "name" : "Orlando",
-    "last" : "Nina Vasquez",
-    "ci" : "",
-    "fechanacimiento" : "0000-00-00",
-    "parentesco" : "",
-    "kardex" : "",
-    "documento" : "",
-    "notas" : "",
-    "club" : "Valle Bajo"
-  },
-  {
-    "name" : "Quintin",
-    "last" : "Vidal Orellana",
-    "ci" : "3088635",
-    "fechanacimiento" : "1963-10-31",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "NO presenta documentos",
-    "club" : "Valle Bajo"
-  },
-  {
-    "name" : "Alfredo",
-    "last" : "Del Carpio  Orellana",
-    "ci" : "3614015",
-    "fechanacimiento" : "1972-11-27",
-    "parentesco" : "HUANUNEÑO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "",
     "club" : "Valle Bajo"
   },
   {
@@ -4156,6 +4266,248 @@
     "documento" : "NO",
     "notas" : "",
     "club" : "Valle Bajo"
+  },
+  {
+    "name" : "Alfredo",
+    "last" : "Perez Tejerina",
+    "ci" : "5210555",
+    "fechanacimiento" : "1972-09-24",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Vladimir",
+    "last" : "Martinez Bustillos",
+    "ci" : "3102791",
+    "fechanacimiento" : "1967-03-29",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Jose Luis ",
+    "last" : "Pereira Vasquez",
+    "ci" : "353091",
+    "fechanacimiento" : "1974-02-19",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "Revisado",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Jhonny",
+    "last" : "Cuellar Sejas",
+    "ci" : "39113221",
+    "fechanacimiento" : "1970-05-25",
+    "parentesco" : "ESPOSO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "NO presenta CI esposa",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Antonio",
+    "last" : "Cossio Terrazas",
+    "ci" : "3805315",
+    "fechanacimiento" : "1973-07-13",
+    "parentesco" : "ESPOSO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "No presenta CI esposa",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Henry Richard",
+    "last" : "Zurita Enriquez",
+    "ci" : "4466498",
+    "fechanacimiento" : "1979-05-08",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Jhon",
+    "last" : "Marza Fuentes",
+    "ci" : "4383071",
+    "fechanacimiento" : "1972-03-26",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Elmer",
+    "last" : "Pereira Zarate",
+    "ci" : "3111951",
+    "fechanacimiento" : "1970-01-07",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Jose Wasfor",
+    "last" : "Perez Tejerina",
+    "ci" : "4533887",
+    "fechanacimiento" : "1979-01-06",
+    "parentesco" : "HIJO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Alfredo",
+    "last" : "Del Carpio  Bustamante",
+    "ci" : "3614015",
+    "fechanacimiento" : "1972-11-27",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Oscar",
+    "last" : "Lopez Ledezma",
+    "ci" : "4513308",
+    "fechanacimiento" : "1975-08-14",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Simon",
+    "last" : "Calle Gutierrez",
+    "ci" : "4386998",
+    "fechanacimiento" : "1970-07-04",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Emilio",
+    "last" : "Camacho Cespedes",
+    "ci" : "976814",
+    "fechanacimiento" : "1956-02-15",
+    "parentesco" : "OTRO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "Trabajador,no presenta documentos, fotocopia de CI  es del 2005",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Juan Carlos",
+    "last" : "Crispin Chacolla",
+    "ci" : "4037496",
+    "fechanacimiento" : "1976-04-08",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Jose Luis",
+    "last" : "Del Carpio Bustamante",
+    "ci" : "3614476",
+    "fechanacimiento" : "1965-09-18",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Irineo Ruben",
+    "last" : "Martinez Bustillos",
+    "ci" : "4331059",
+    "fechanacimiento" : "1976-06-28",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Efrain",
+    "last" : "Bustamante Molina",
+    "ci" : "3042703",
+    "fechanacimiento" : "1966-04-10",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Alberto",
+    "last" : "Mareño Montan",
+    "ci" : "663901",
+    "fechanacimiento" : "1957-12-01",
+    "parentesco" : "OTRO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "Trabajador no presenta documentos CI indica nacio en Llallagua Potosi",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Jhasmany",
+    "last" : "Panozo Mamani",
+    "ci" : "5268665",
+    "fechanacimiento" : "1979-10-28",
+    "parentesco" : "ESPOSO",
+    "kardex" : "",
+    "documento" : "SI",
+    "notas" : "No presenta documentos esposa",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Emilio",
+    "last" : "Vallejos Vargas",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Willy",
+    "last" : "Ledezma Escobar",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Villa Busch Tigres"
+  },
+  {
+    "name" : "Pablo",
+    "last" : "Martinez Bustillos",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Villa Busch Tigres"
   },
   {
     "name" : "Guillermo",
@@ -4257,17 +4609,6 @@
     "club" : "Villa Galindo"
   },
   {
-    "name" : "Marco Antonio",
-    "last" : "Crispin Soliz",
-    "ci" : "3117966",
-    "fechanacimiento" : "1973-05-23",
-    "parentesco" : "HIJO",
-    "kardex" : "",
-    "documento" : "SI",
-    "notas" : "No presenta documentos padre/madre",
-    "club" : "Villa Galindo"
-  },
-  {
     "name" : "Jose",
     "last" : "Soria Salguiero",
     "ci" : "3099395",
@@ -4283,9 +4624,9 @@
     "last" : "Chacon Bozo",
     "ci" : "",
     "fechanacimiento" : "0000-00-00",
-    "parentesco" : "",
+    "parentesco" : "HUANUNEÑO",
     "kardex" : "",
-    "documento" : "",
+    "documento" : "SI",
     "notas" : "",
     "club" : "Villa Galindo"
   },
@@ -4307,7 +4648,7 @@
     "fechanacimiento" : "1969-06-01",
     "parentesco" : "HUANUNEÑO",
     "kardex" : "",
-    "documento" : "",
+    "documento" : "SI",
     "notas" : "",
     "club" : "Villa Galindo"
   },
@@ -4330,6 +4671,39 @@
     "parentesco" : "HUANUNEÑO",
     "kardex" : "",
     "documento" : "SI",
+    "notas" : "",
+    "club" : "Villa Galindo"
+  },
+  {
+    "name" : "Ivan",
+    "last" : "Sarmiento Bozo",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "HUANUNEÑO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Villa Galindo"
+  },
+  {
+    "name" : "Edgar",
+    "last" : "Bellot",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "NINGUNO",
+    "kardex" : "",
+    "documento" : "NO",
+    "notas" : "",
+    "club" : "Villa Galindo"
+  },
+  {
+    "name" : "Alfredo",
+    "last" : "Ardaya Lopez",
+    "ci" : "",
+    "fechanacimiento" : "0000-00-00",
+    "parentesco" : "NINGUNO",
+    "kardex" : "",
+    "documento" : "NO",
     "notas" : "",
     "club" : "Villa Galindo"
   }
