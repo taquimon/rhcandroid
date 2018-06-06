@@ -39,6 +39,7 @@
         <link rel="stylesheet" href="css/style.css">
         <!--<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">-->
         <link rel="stylesheet" href="css/rhc.css">
+        <link rel="stylesheet" href="css/table.css">
         <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
         <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />
 
@@ -90,6 +91,7 @@
         <div data-role="header" align="center">RHC * Residentes Huanuni Cochabamba</div>
         <div role="main" class="ui-content">
             <a href="#futbol_senior" data-role="button" data-theme="a">Futbol Senior</a>
+            <a href="#futbol_senior_list" data-role="button" data-theme="a">Futbol Senior List</a>
             <a href="#futbol_libre" data-role="button" data-theme="a">Futbol Libre</a>
             <a href="#futsala_senior" data-role="button" data-theme="a">Futsala Senior </a>
             <a href="#futsala_libre" data-role="button" data-theme="a">Futsala Libre</a>
@@ -189,9 +191,56 @@
                 </div>
             </div>
         </div><!-- /content -->
-
-        <div data-role="footer" align="center">RHC CopyRight &copy; 2016</div>
+        <div data-role="footer" align="center">RHC CopyRight &copy; 2018</div>
         <!-- /footer -->
     </div><!-- /page -->
+    <div data-role="page" id="futbol_senior_list">
+        <div data-role="header">
+            <h1>Futbol Senior</h1><a href="#init" data-role="button" data-theme="a">Inicio</a>
+        </div><!-- /header -->
+        <div role="main" class="ui-content">
+            <div class="pages">
+                <form><input id="filterTable-input" data-type="search"></form>
+                <table data-role="table" id="movie-table" data-filter="true" data-input="#filterTable-input" class="ui-responsive movie-list" data-mode="reflow">
+                    <thead>
+                        <tr>
+                            <th data-priority="1">No.</th>
+                            <th data-priority="persist">Nombre</th>
+                            <th data-priority="2">Fecha de Nacimiento</th>
+                            <th data-priority="3">CI.</th>
+                            <th data-priority="3">Club Actual</th>                
+                            <th data-priority="4">Kardex</th>
+                            <th data-priority="3">Notas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <td><a href="http://en.wikipedia.org/wiki/Citizen_Kane" data-rel="external">Citizen Kane</a></td>
+                            <td>1941</td>
+                            <td>100%</td>
+                            <td>74</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td><a href="http://en.wikipedia.org/wiki/Casablanca_(film)" data-rel="external">Casablanca</a></td>
+                            <td>1942</td>
+                            <td>97%</td>
+                            <td>64</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td><a href="http://en.wikipedia.org/wiki/The_Godfather" data-rel="external">The Godfather</a></td>
+                            <td>1972</td>
+                            <td>97%</td>
+                            <td>87</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div data-role="footer" align="center">RHC CopyRight &copy; 2018</div>
+    </div>
+
     </body>
 </html>
